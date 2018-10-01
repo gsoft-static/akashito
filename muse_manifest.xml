@@ -1,0 +1,127 @@
+<manifest alg="2" build="314" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="3862328228"/>
+    <file name="master_a-master.css" crc="162858559" ref="index"/>
+    <file name="index.css" crc="362157346" ref="index"/>
+    <file name="iefonts_index.css" crc="211686421" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:tablet>index:index"/>
+    <file name="museutils.js" crc="3865766194" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.musemenu.js" crc="3788803530" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="phone>index:tablet>index:index"/>
+    <file name="pie.js" crc="3827607177" ref="phone>index:tablet>index:index"/>
+    <file name="webpro.js" crc="3903299128" ref="phone>index:tablet>index:index"/>
+    <file name="form_check.php" crc="4257733307" ref="phone>index:index"/>
+    <file name="form_throttle.php" crc="3966014863" ref="phone>index:index"/>
+    <file name="form-u7786.php" crc="416620315" ref="phone>index"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="phone>index:tablet>index:index"/>
+    <file name="musewpslideshow.js" crc="138381373" ref="tablet>index:index"/>
+    <file name="jquery.museoverlay.js" crc="4250894771" ref="tablet>index:index"/>
+    <file name="touchswipe.js" crc="4156838003" ref="tablet>index:index"/>
+    <file name="museredirect.js" crc="236897542" ref="index"/>
+    <file name="musewpdisclosure.js" crc="4285748861" ref="index"/>
+    <file name="form-u7737.php" crc="192475223" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="akashito-favicon.ico" crc="184005921" ref="phone>index"/>
+    <file name="blank.gif" crc="4208392903" ref="phone>index:tablet>index:index"/>
+    <file name="u4011.png" crc="4138352049" ref="phone>index"/>
+    <file name="u4011-a.png" crc="52679660" ref="phone>index"/>
+    <file name="u4037.png" crc="4043003796" ref="phone>index"/>
+    <file name="u4037-a.png" crc="3893434563" ref="phone>index"/>
+    <file name="u4074.png" crc="195626514" ref="phone>index"/>
+    <file name="u4074-a.png" crc="91579497" ref="phone>index"/>
+    <file name="u4099.png" crc="122173506" ref="phone>index"/>
+    <file name="u4099-a.png" crc="3958832042" ref="phone>index"/>
+    <file name="u4287-4.png" crc="398372173" ref="phone>index"/>
+    <file name="u4288-6.png" crc="4230119975" ref="phone>index"/>
+    <file name="puente-de-triana ok380x226.jpg" crc="458862487" ref="phone>index"/>
+    <file name="logo akashito copia116x105.png" crc="4060843743" ref="phone>index"/>
+    <file name="u4293-4.png" crc="67941260" ref="phone>index"/>
+    <file name="visa_mastercard_logo.gif" crc="249692044" ref="phone>index:tablet>index:index"/>
+    <file name="1.jpg" crc="3806381388" ref="phone>index"/>
+    <file name="triptico cara b-u7607.jpg" crc="4201037088" ref="phone>index"/>
+    <file name="u4300-4.png" crc="4289710778" ref="phone>index"/>
+    <file name="crea tu maki276x165.jpg" crc="3933094018" ref="phone>index"/>
+    <file name="ingrediente movil.jpg" crc="335236000" ref="phone>index"/>
+    <file name="acompañar movil.jpg" crc="455667175" ref="phone>index"/>
+    <file name="facebook 2.png" crc="3943962217" ref="phone>index:tablet>index:index"/>
+    <file name="u4400-4.png" crc="86923862" ref="phone>index"/>
+    <file name="u7793-17.png" crc="314446550" ref="phone>index"/>
+    <file name="u7793-17-r.png" crc="340817208" ref="phone>index"/>
+    <file name="u7793-17-m.png" crc="462210815" ref="phone>index"/>
+    <file name="u7793-17-fs.png" crc="158867030" ref="phone>index"/>
+    <file name="u3571.png" crc="280986086" ref="tablet>index"/>
+    <file name="u3571-a.png" crc="217663625" ref="tablet>index"/>
+    <file name="u3609.png" crc="327998735" ref="tablet>index"/>
+    <file name="u3609-a.png" crc="4286716772" ref="tablet>index"/>
+    <file name="u3636.png" crc="334797222" ref="tablet>index"/>
+    <file name="u3636-a.png" crc="3777827752" ref="tablet>index"/>
+    <file name="u3658.png" crc="314381638" ref="tablet>index"/>
+    <file name="u3658-a.png" crc="3778398570" ref="tablet>index"/>
+    <file name="puente-de-triana ok.jpg" crc="4259242990" ref="tablet>index:index"/>
+    <file name="u6648-7.png" crc="3042604" ref="tablet>index"/>
+    <file name="logo akashito copia189x189.png" crc="3924325366" ref="tablet>index"/>
+    <file name="u7298-13.png" crc="402923305" ref="tablet>index"/>
+    <file name="u6642-4.png" crc="4118858156" ref="tablet>index"/>
+    <file name="cartel nuevo paredok .jpg" crc="96407964" ref="tablet>index"/>
+    <file name="cartel novedad pared ok.jpg" crc="4045411634" ref="tablet>index"/>
+    <file name="u6767-4.png" crc="323898684" ref="tablet>index"/>
+    <file name="u6856-4.png" crc="3803058586" ref="tablet>index"/>
+    <file name="bebidas tablet.jpg" crc="60392295" ref="tablet>index"/>
+    <file name="crea tu maki.jpg" crc="4246265416" ref="tablet>index:index"/>
+    <file name="ingredientes.jpg" crc="3898691494" ref="tablet>index:index"/>
+    <file name="salsas copia.jpg" crc="179786333" ref="tablet>index:index"/>
+    <file name="luces nocturnasok.jpg" crc="4148229389" ref="tablet>index"/>
+    <file name="u630.png" crc="230605857" ref="index"/>
+    <file name="u630-a.png" crc="492893782" ref="index"/>
+    <file name="u642.png" crc="308172463" ref="index"/>
+    <file name="u642-a.png" crc="146485031" ref="index"/>
+    <file name="u666.png" crc="293448602" ref="index"/>
+    <file name="u666-a.png" crc="4144829134" ref="index"/>
+    <file name="u690.png" crc="3790485048" ref="index"/>
+    <file name="u690-a.png" crc="3972276797" ref="index"/>
+    <file name="u2962-4.png" crc="216584057" ref="index"/>
+    <file name="logo akashito copia.png" crc="520262738" ref="index"/>
+    <file name="u4757-13.png" crc="125355066" ref="index"/>
+    <file name="imagen 3.jpg" crc="3760756583" ref="index"/>
+    <file name="u2984-4.png" crc="4118858156" ref="index"/>
+    <file name="makis nuevo.jpg" crc="66435290" ref="index"/>
+    <file name="uramakis nuevo.jpg" crc="3772619344" ref="index"/>
+    <file name="nigiris nuevo.jpg" crc="397092844" ref="index"/>
+    <file name="bebidas.jpg" crc="92574081" ref="index"/>
+    <file name="makis y uramakis copia.jpg" crc="4215336095" ref="index"/>
+    <file name="temakis.jpg" crc="491193667" ref="index"/>
+    <file name="maki.png" crc="4015140234" ref="index"/>
+    <file name="uromaki solo.png" crc="4089635881" ref="index"/>
+    <file name="nigiri.png" crc="24973524" ref="index"/>
+    <file name="cerveza-japonesa-asahi copia.png" crc="342948778" ref="index"/>
+    <file name="nuevo.gif" crc="4062063241" ref="index"/>
+    <file name="temaki salmón dulce.png" crc="525098727" ref="index"/>
+    <file name="fondo 3.jpg" crc="413196016" ref="index"/>
+    <file name="u3010-4.png" crc="323898684" ref="index"/>
+    <file name="u3271-5.png" crc="4182939181" ref="index"/>
+    <file name="u7762-17.png" crc="246099371" ref="index"/>
+    <file name="u7762-17-r.png" crc="3796703375" ref="index"/>
+    <file name="u7762-17-m.png" crc="535981723" ref="index"/>
+    <file name="u7762-17-fs.png" crc="511126017" ref="index"/>
+    <file name="u5307-8.png" crc="4091825622" ref="index"/>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="master_a-master.css" crc="287972732" ref="tablet>index"/>
+      <file name="index.css" crc="4094852736" ref="tablet>index"/>
+    </folder>
+    <file name="index.html" crc="3864804338" mt="1481238984410" redirect="true"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="master_a-master.css" crc="52418459" ref="phone>index"/>
+      <file name="index.css" crc="175758107" ref="phone>index"/>
+      <file name="iefonts_index.css" crc="3936464968" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="3914938534" mt="1481820062473" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="479801546" mt="1481819622415" redirect="true"/>
+</manifest>
