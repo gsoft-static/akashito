@@ -12,7 +12,7 @@ build:
 	echo '<html><head><meta http-equiv="refresh" content="0; URL='/'" /></head></html>' > dist/tablet/index.html
 
 pull.subtree:
-	-git push origin `git subtree split --prefix dist gh-pages`:gh-pages --force
+	-git push origin `git subtree split --prefix dist master`:gh-pages --force
 
 deploy: pull.subtree build
 	git fetch origin
