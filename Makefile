@@ -7,7 +7,7 @@ build:
 	echo "akashito.com" dist/CNAME
 
 pull.subtree:
-	-git push origin `git subtree split --prefix dist ${TARGET_BRANCH}`:${TARGET_BRANCH} --force
+	-git push origin `git subtree split --prefix dist gh-pages`:gh-pages --force
 
 deploy: pull.subtree build
 	git fetch origin
