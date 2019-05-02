@@ -6,7 +6,10 @@ build:
 	$(shell npm bin)/parcel build src/index.html
 	echo "akashito.com" dist/CNAME
 
-deploy: build
+pull.subtree:
+	-git push origin `git subtree split --prefix dist ${TARGET_BRANCH}`:${TARGET_BRANCH} --force
+
+deploy: pull.subtree build
 	git fetch origin
 	git add -f dist
 	git commit -m "build"
