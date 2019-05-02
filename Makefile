@@ -4,7 +4,7 @@ dev:
 
 build:
 	$(shell npm bin)/parcel build src/index.html
-	echo "akashito.com" dist/CNAME
+	echo "akashito.com" > dist/CNAME
 
 pull.subtree:
 	-git push origin `git subtree split --prefix dist gh-pages`:gh-pages --force
