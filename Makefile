@@ -3,6 +3,7 @@ dev:
 	$(shell npm bin)/parcel src/index.html
 
 build:
+	rm -rf dist
 	$(shell npm bin)/parcel build src/index.html
 	echo "akashito.com" > dist/CNAME
 
