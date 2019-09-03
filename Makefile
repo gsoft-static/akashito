@@ -4,6 +4,8 @@ dev:
 
 build:
 	rm -rf dist
+	# mkdir -p dist/photoswipe
+	# cp -R node_modules/photoswipe/dist/* dist/photoswipe
 	$(shell npm bin)/parcel build src/index.html
 	echo "akashito.com" > dist/CNAME
 	mkdir -p dist/phone
