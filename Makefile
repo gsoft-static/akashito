@@ -1,8 +1,12 @@
 
-dev:
+node_modules:; npm install
+install:; npm install
+i: install
+
+dev: node_modules
 	$(shell npm bin)/parcel src/index.html
 
-build:
+build: node_modules
 	rm -rf dist
 	# mkdir -p dist/photoswipe
 	# cp -R node_modules/photoswipe/dist/* dist/photoswipe
