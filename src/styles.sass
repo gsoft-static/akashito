@@ -2,6 +2,9 @@
 @import "./assets/fonts/Shanghai.css"
 @import "./assets/fonts/Inter_Web/Inter.css"
 
+*, *::before, *::after
+    box-sizing: border-box
+
 html
     height: 100%
 
@@ -110,3 +113,37 @@ main
         margin: 24px 0
         @media (min-width: 500px)
             margin: 40px 0
+
+.cookies-banner
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex: 0 0 auto
+
+    font-size: 18px
+
+    position: fixed
+    bottom: 0
+    left: 0
+    width: 100%
+    padding: 24px
+
+    background: #0eabab
+
+    transition: transform 0.4s ease-out
+    transform: translateY(100%)
+
+    &.show
+        transform: translateY(0%)
+
+    &, a
+        color: white
+
+    button
+        font-size: 18px
+        background: white
+        border: 0
+        outline: 0
+        cursor: pointer
+        height: 32px
+        padding: 0 16px

@@ -23,7 +23,7 @@ dist/styles.css: dist
 		--indented
 
 dist/main.js: dist
-	esbuild src/main.js > ./dist/main.js \
+	esbuild src/main.js --outdir=dist \
 		--bundle --minify \
 		--target=chrome58,firefox57,safari11,edge16 \
 		${BUNDLE_FLAGS}
@@ -41,7 +41,7 @@ build: node_modules clean dist
 	mkdir -p dist/tablet
 	echo '<html><head><meta http-equiv="refresh" content="0; URL='/'" /></head></html>' > dist/tablet/index.html
 
-dev: export BUNDLE_FLAGS=--sourcemap
+dev: export BUNDLE_FLAGS=--sourcemap=external
 dev: build
 
 	fsdir -d src \
