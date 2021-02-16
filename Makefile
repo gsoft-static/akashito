@@ -11,7 +11,7 @@ build: node_modules
 	# mkdir -p dist/photoswipe
 	# cp -R node_modules/photoswipe/dist/* dist/photoswipe
 	$(shell npm bin)/parcel build src/index.html
-	echo "akashito.com" > dist/CNAME
+	echo "https://akashito.com" > dist/CNAME
 	mkdir -p dist/phone
 	echo '<html><head><meta http-equiv="refresh" content="0; URL='/'" /></head></html>' > dist/phone/index.html
 	mkdir -p dist/tablet
