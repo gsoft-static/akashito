@@ -32,6 +32,7 @@ function showCookiesBanner () {
         .querySelector('button')
         .addEventListener('click', _e => {
             $banner.className = 'cookies_banner'
+            console.log('ñam!! 🍪ᗤ')
             loadGA()
         })
 }
