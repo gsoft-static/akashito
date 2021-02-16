@@ -1,6 +1,4 @@
 
-console.log('🍪')
-
 function loadScript (href) {
     const $script = document.createElement('script')
     $script.src = href
@@ -21,6 +19,8 @@ function loadGA () {
 }
 
 function showCookiesBanner () {
+    console.log('🍪 missing!')
+
     const $banner = document.createElement('div')
     const $banner_snippet = document.querySelector('script[type="text/html"][data-snippet="cookies_banner"]')
     $banner.className = 'cookies_banner show'
