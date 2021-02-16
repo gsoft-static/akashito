@@ -21,14 +21,17 @@ function loadGA () {
 }
 
 function showCookiesBanner () {
-    const $banner = document.querySelector('.cookies-banner')
+    const $banner = document.createElement('div')
+    const $banner_snippet = document.querySelector('script[type="text/html"][data-snippet="cookies_banner"]')
+    $banner.className = 'cookies_banner show'
+    document.body.appendChild($banner)
 
-    $banner.classList.add('show')
+    $banner.innerHTML = $banner_snippet.textContent
 
     $banner
         .querySelector('button')
         .addEventListener('click', _e => {
-            $banner.classList.remove('show')
+            $banner.className = 'cookies_banner'
             loadGA()
         })
 }

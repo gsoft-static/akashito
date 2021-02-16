@@ -41,7 +41,7 @@ build: node_modules clean dist
 	mkdir -p dist/tablet
 	echo '<html><head><meta http-equiv="refresh" content="0; URL='/'" /></head></html>' > dist/tablet/index.html
 
-dev: export BUNDLE_FLAGS=--sourcemap=external
+dev: export BUNDLE_FLAGS=--sourcemap
 dev: build
 
 	fsdir -d src \
