@@ -76,19 +76,32 @@ main
             text-align: left
 
     ._menu
-        display: flex
-        justify-content: center
-        align-items: center
         margin-top: 40px
 
         a
-            width: 250px
+            display: block
 
         img
             width: 100%
 
-        a + a
-            margin-left: 32px
+        @media (max-width: 499px)
+            margin-top: 16px
+            margin-top: 16px
+
+            a + a
+                margin-top: 16px
+
+        @media (min-width: 500px)
+            margin-top: 40px
+            display: flex
+            justify-content: center
+            align-items: center
+
+            a
+                width: 250px
+
+            a + a
+                margin-left: 32px
 
     ._contact
         font-size: 14px
