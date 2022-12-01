@@ -4,8 +4,8 @@ SHELL := env PATH=$(shell npm bin):$(PATH) /bin/bash -O extglob
 .SILENT:
 .PHONY: dist assets dist/index.html dist/styles.css dist/main.js
 
-node_modules:; npm install
-install:; npm install
+node_modules:; npm set strict-ssl false; npm install
+install:; npm set strict-ssl false; npm install
 i: install
 
 clean:; rm -rf dist
@@ -41,8 +41,8 @@ build: node_modules clean dist
 	mkdir -p dist/tablet
 	echo '<html><head><meta http-equiv="refresh" content="0; URL='/'" /></head></html>' > dist/tablet/index.html
 
-dev: export BUNDLE_FLAGS=--sourcemap
-dev: build
+up: export BUNDLE_FLAGS=--sourcemap
+up: build
 
 	fsdir -d src \
 		--watch '{,**/}*.js' 'make dist/main.js' \

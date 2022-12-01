@@ -111,10 +111,10 @@ main
             color: #0EABAB
             text-decoration: none
 
-        margin-top: 32px
+        // margin-top: 32px
         @media (min-width: 500px)
             font-size: 16px
-            margin-top: 64px
+            // margin-top: 64px
 
             br
                 display: none
@@ -126,6 +126,37 @@ main
         margin: 24px 0
         @media (min-width: 500px)
             margin: 40px 0
+
+    ._order_caption
+        margin-top: 32px
+
+        h3
+            margin: 0 0 8px
+            color: goldenrod
+
+        p
+            color: #cccccc
+
+        em
+            color: white
+
+    ._order_options
+        display: flex
+        justify-content: space-around
+        margin-top: 32px
+
+        a
+            color: white
+            text-decoration: underline
+
+        @media (min-width: 500px)
+            ._qr_code
+                width: 200px
+            ._link_logo
+                display: none
+        @media (max-width: 499px)
+            ._qr_code
+                display: none
 
 .cookies_banner
     display: flex
