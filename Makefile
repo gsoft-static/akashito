@@ -35,7 +35,7 @@ build: node_modules clean dist
 	$(MAKE) dist/main.js
 	# mkdir -p dist/photoswipe
 	# cp -R node_modules/photoswipe/dist/* dist/photoswipe
-	echo "akashito.com" > dist/CNAME
+	echo "https://akashito.com" > dist/CNAME
 	mkdir -p dist/phone
 	echo '<html><head><meta http-equiv="refresh" content="0; URL='/'" /></head></html>' > dist/phone/index.html
 	mkdir -p dist/tablet
